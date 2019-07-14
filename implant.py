@@ -164,8 +164,6 @@ for x in interfaces:
         master_list['machines'][x] = {}
         s1 = socket.socket(socket.PF_PACKET, socket.SOCK_RAW, socket.htons(3))
         s1.bind((x, 0))
-        if x == 'eth0' or x == 'eth1':
-            continue
         t1 = threading.Thread(target=threading_send, args=(s1,))
         """
         we need to give the threading declarations arguments of the socket to be threaded
