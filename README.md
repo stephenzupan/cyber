@@ -1,6 +1,6 @@
 # cybersec
 <h3>Python</h3>
-  The implant script in this repository functions as a comprehensive network, ip, and port scanner. It reads the interfaces that your machine can access and scans the interface for IPs, scans the IPs for ports, and scans the ports for open ports to be potentially exploited.
+  This repo's python folder contains an implant script (<b>implant.py</b>) in this repository functions as a comprehensive network, ip, and port scanner. It reads the interfaces that your machine can access and scans the interface for IPs, scans the IPs for ports, and scans the ports for open ports to be potentially exploited. The exploit script (<b>exploit_szupan.py</b>) features a timing attack on what I found to be a very frustrating target server (<b>hw.py</b>). 
   <hr>
 <h3>Metasploit (Ruby)</h3>
   The Metasploit folder contains 3 Ruby scripts I created for an offensive pen testing exploit. The target server these scripts are designed to run on is included in the folder as well as the assignment explanation in .pdf format.
