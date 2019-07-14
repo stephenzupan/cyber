@@ -1,5 +1,4 @@
-# Stephen Zupan
-# HW3, late as can be
+#!/usr/bin/python
 
 import sys
 import os
