@@ -72,15 +72,6 @@ param([Parameter(Mandatory=$true)] [string] $PassList,
                     }
                 Write-Output $session
                 }
-                
-                #$cmd = Invoke-Command -ComputerName $comp.DNSHostName -ErrorAction Ignore -Credential $cred -ScriptBlock{
-                #$result = echo hey
-                #$result
-                #}
-                #order: passList, fileSearchName, targetIP, logFile
-                #Write-Output $user
-                #Write-Output $pass
-                #Write-Output $cmd
                 #Test cmd: BeginImplant PassList.txt TargetFile.txt 10.1.0.1 logFile
                 #import cmd: Import-Module .\BeginImplant.ps1
             }
